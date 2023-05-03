@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batataurante</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-2" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0">Batataurante</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-restaurante" class="nav-link active">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o restaurante
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-shop me-1"></i>
+                            Cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-send me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-restaurante">
+            <div class="container">
+                <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="4000">
+                            <img src="https://cdn.pixabay.com/photo/2016/11/18/14/05/brick-wall-1834784_1280.jpg" alt="foto interna do restaurante">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="4000">
+                            <img src="https://cdn.pixabay.com/photo/2014/11/24/14/39/potatoes-544073_1280.jpg" alt="panela com batata">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="4000">
+                            <img src="https://cdn.pixabay.com/photo/2020/09/21/05/57/coffee-5589036_1280.jpg" alt="café">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="https://cdn.pixabay.com/photo/2017/07/31/11/22/man-2557408_1280.jpg" class="d-block w-100 rounded" alt="foto interna" srcset="">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span>o restaurante</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae ratione ut sapiente quasi nemo obcaecati deleniti sunt asperiores nesciunt, consectetur temporibus repellendus culpa id doloremque cupiditate vel neque totam. Reprehenderit.
+                            </p>
+                            <h3 class="section-title">Sobre <span>o espaço</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aliquam quis perspiciatis totam amet aut quod corrupti, illo ipsum quidem architecto at soluta voluptatum, laboriosam eos id saepe dolore laborum!
+                            </p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-3">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span>as ocasiões</span></h2>
+                </div>
+                <div class="mt-4 row">
+                    <div class="eventos col-md-4">
+                        <img src="https://cdn.pixabay.com/photo/2019/08/10/22/34/table-4397860_1280.jpg" alt="Mesa arrumada para evento" class="d-block w-100">
+                        <h3 class="section-title fs-4 text-center text-colored"> 
+                            <i class="bi bi-people-fill"></i>
+                            Eventos formais</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo harum alias aut molestias aperiam omnis odio eveniet incidunt, ducimus exercitationem, laudantium labore enim qui illo consequuntur expedita debitis quos deleniti.</p>
+                    </div>
+                    <div class="eventos col-md-4">
+                        <img src="https://cdn.pixabay.com/photo/2015/12/30/11/53/birthday-1114056_1280.jpg" alt="Bolo com velas de aniversario" class="d-block w-100">
+                        <h3 class="section-title fs-4 text-center text-colored"> 
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Aniversários</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quis voluptate suscipit repudiandae deserunt? Itaque qui tempora quasi repellat, cum molestias dolores, vel, consequatur quas doloremque aliquid maxime temporibus reprehenderit?</p>
+                    </div>
+                    <div class="eventos col-md-4">
+                        <img src="https://cdn.pixabay.com/photo/2016/03/04/14/31/couple-1236137_1280.jpg" alt="Lado de fora com mesas" class="d-block w-100">
+                        <h3 class="section-title fs-4 text-center text-colored"> 
+                            <i class="bi bi-chat-dots-fill"></i>
+                            Confraternizações</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quis voluptate suscipit repudiandae deserunt? Itaque qui tempora quasi repellat, cum molestias dolores, vel, consequatur quas doloremque aliquid maxime temporibus reprehenderit?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="cardapio pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-4">Nosso <span>cardápio</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="fw-bold text-start nav-link text-colored active">Bebidas não alcoólicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="fw-bold text-start nav-link text-colored ">Bebidas alcoólicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-start nav-link text-colored ">Entradas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class="fw-bold text-start nav-link text-colored ">Pratos principais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-start nav-link text-colored ">Sobremesas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bebidas-sem-alcool">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="imagens d-block w-100 rounded" src="https://cdn.pixabay.com/photo/2015/01/08/04/18/box-592367_1280.jpg" alt="coca-cola">
+                                        <h5 class="mt-2">Coca-cola</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="imagens d-block w-100 rounded" src="https://cdn.pixabay.com/photo/2016/10/09/14/00/vegetable-juices-1725835_1280.jpg" alt="Sucos">
+                                        <h5 class="mt-2">Suco</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="imagens d-block w-100 rounded" src="https://media.istockphoto.com/id/1331914601/pt/foto/vegetable-juice.jpg?s=612x612&w=is&k=20&c=quAfNGUy1JCV2J_mVd4IEY1smL2SIafAYQBlI1z2kMQ=" alt="Suco de batata">
+                                        <h5 class="mt-2">Suco de batata</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="imagens d-block w-100 rounded" src="https://cdn.pixabay.com/photo/2015/05/07/13/46/cappuccino-756490_1280.jpg" alt="Cappuccino">
+                                        <h5 class="mt-2">Cappuccino</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="imagens d-block w-100 rounded" src="https://cdn.pixabay.com/photo/2016/10/09/14/00/vegetable-juices-1725835_1280.jpg" alt="Sucos">
+                                        <h5 class="mt-2">Suco</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="imagens d-block w-100 rounded" src="https://media.istockphoto.com/id/1331914601/pt/foto/vegetable-juice.jpg?s=612x612&w=is&k=20&c=quAfNGUy1JCV2J_mVd4IEY1smL2SIafAYQBlI1z2kMQ=" alt="Suco de batata">
+                                        <h5 class="mt-2">Suco de batata</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bebidas-alcoolicas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="imagens d-block w-100 rounded" src="https://cdn.pixabay.com/photo/2020/03/20/11/47/chopp-4950409_1280.jpg" alt="cerveja">
+                                        <h5 class="mt-2">Cerveja</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="imagens d-block w-100 rounded" src="https://cdn.pixabay.com/photo/2016/01/02/04/58/martini-1117932_1280.jpg" alt="Martini">
+                                        <h5 class="mt-2">Martini</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="imagens d-block w-100 rounded" src="https://cdn.pixabay.com/photo/2018/04/26/05/49/glass-3351176_1280.jpg" alt="Vodka de batata">
+                                        <h5 class="mt-2">Vodka de batata</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="imagens d-block w-100 rounded" src="https://cdn.pixabay.com/photo/2020/03/20/11/47/chopp-4950409_1280.jpg" alt="cerveja">
+                                        <h5 class="mt-2">Cerveja</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="imagens d-block w-100 rounded" src="https://cdn.pixabay.com/photo/2016/01/02/04/58/martini-1117932_1280.jpg" alt="Martini">
+                                        <h5 class="mt-2">Martini</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="imagens d-block w-100 rounded" src="https://cdn.pixabay.com/photo/2018/04/26/05/49/glass-3351176_1280.jpg" alt="Vodka de batata">
+                                        <h5 class="mt-2">Vodka de batata</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="entradas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="imagens d-block w-100 rounded" src="https://cdn.pixabay.com/photo/2021/02/26/21/57/swedish-6053302_1280.jpg" alt="batata com almondegas">
+                                        <h5 class="mt-2">Batatas com almôndegas</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="imagens d-block w-100 rounded" src="https://cdn.pixabay.com/photo/2021/02/07/16/28/shrimp-5991876_1280.jpg" alt="Camarão com purê de batata">
+                                        <h5 class="mt-2">Camarão com purê de batata</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="imagens d-block w-100 rounded" src="https://cdn.pixabay.com/photo/2016/03/29/16/08/salad-1288557_1280.jpg" alt="Salada">
+                                        <h5 class="mt-2">Salada</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pratos-principais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="imagens d-block w-100 rounded" src="https://cdn.pixabay.com/photo/2014/04/22/02/56/pizza-329523_1280.jpg" alt="pizza de batata">
+                                        <h5 class="mt-2">Pizza de batata</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="imagens d-block w-100 rounded" src="https://cdn.pixabay.com/photo/2017/08/17/19/40/ukrainian-dill-potatoes-2652561_1280.jpg" alt="Batatas de endro Ucrânianas">
+                                        <h5 class="mt-2">Batatas de endro Ucrânianas</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="imagens d-block w-100 rounded" src="https://cdn.pixabay.com/photo/2017/07/14/23/25/kebab-2505236_1280.jpg" alt="Kebab">
+                                        <h5 class="mt-2">Kebab</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="imagens d-block w-100 rounded" src="https://cdn.pixabay.com/photo/2016/11/29/11/15/fruits-1869132_1280.jpg" alt="Porção de frutas">
+                                        <h5 class="mt-2">Porção de frutas</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="imagens d-block w-100 rounded" src="https://cdn.pixabay.com/photo/2016/03/27/19/23/tart-1283822_1280.jpg" alt="Tartê">
+                                        <h5 class="mt-2">Tartê</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="imagens d-block w-100 rounded" src="https://cdn.pixabay.com/photo/2017/01/11/11/33/cake-1971552_1280.jpg" alt="Bolo">
+                                        <h5 class="mt-2">Bolo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-3 pb-3">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span>conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" name="nome" class="form-control fw-bold text-colored" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu email</label>
+                                <input type="email" id="email" name="email" class="form-control fw-bold text-colored" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone</label>
+                                <input type="tel" id="telefone" name="telefone" class="form-control fw-bold text-colored">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control fw-bold text-colored" name="mensagem" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4"><i class="bi bi-hand-thumbs-up-fill text-colored"></i><span>Redes Sociais</span></h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#"><i class="bi bi-facebook text-colored"></i></a>
+                                </li>
+                                <li class="fs-5 ms-2 me-2">
+                                    <a href="#"><i class="bi bi-instagram text-colored"></i></a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#"><i class="bi bi-whatsapp text-colored"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <h3 class="section-title fs-4"><i class="bi bi-cursor-fill text-colored"></i><span>Endereço</span></h3>
+                            <p>Rua jQuery numero 404, bairro HTML, Bootstrap, SC</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#telefone').mask('(00) 00000-0000', {
+                placeholder: '(00) 00000-0000'
+            })
+
+            $('form').validate({
+                rules: {
+                    nome: {
+                        required: true
+                    },
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    mensagem: {
+                        required: true
+                    }
+                },
+                messages: {
+                    nome: 'Por favor, insira o seu nome.',
+                    email: 'Por favor, insira o seu E-mail.',
+                    mensagem: 'Por favor, insira a sua mensagem.'
+                },
+                submitHandler: function(form) {
+                    console.log(form)
+                },
+                invalidHandler: function(evento, validador) {
+                    let camposIncorretos = validador.numberOfInvalids();
+                    console.log(camposIncorretos)
+                }
+            })
+    })
+    </script>
+</body>
+</html>
