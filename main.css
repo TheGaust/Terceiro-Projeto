@@ -84,6 +84,12 @@ body {
     }
 }
 
+@media (max-width:967px) {
+    .cardapio {
+        margin-top: 70px;
+    }
+}
+
 #nome-error,
 #email-error,
 #mensagem-error {
